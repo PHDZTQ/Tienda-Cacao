@@ -1,6 +1,6 @@
 # Tienda Cacao
 
-Proyecto Final modulo 1 de programa Bécalos con DEV.F, en el cual desarrolle una tienda de cacao basada en la hacienda cacaotera Jesús María en Tabasco.
+Proyecto Final modulo 1 y modulo 2 de programa Bécalos con DEV.F, en el cual desarrolle una tienda de cacao basada en la hacienda cacaotera Jesús María localizada en el estado de Tabasco.
 
 ## Instalación
 
