@@ -46,6 +46,42 @@ main {
   margin-bottom: 10px;
 }
 
+.about-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.about-title h1 {
+  text-align: center;
+  color: #a7144c;
+}
+
+/* Seccion de los parrafos quienes somos, historia y beneficios */
+.textos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.texto-card {
+  width: 100%;
+  height: 25rem;
+  background-color: #fbd67c;
+  padding: 2%;
+}
+.texto-card p {
+  font-size: 1.1rem;
+  text-align: justify;
+  padding-top: 1%;
+}
+.texto-card img {
+  width: 350px;
+  height: 250px;
+  border-radius: 2%;
+}
+
 /* Estilos del footer */
 footer {
   display: flex;
