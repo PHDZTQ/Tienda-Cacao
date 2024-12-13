@@ -12,6 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Dentro de header, estilos para el h1 */
@@ -176,5 +177,6 @@ footer {
 
   .product-card img {
     height: 200px;
+    width: 200px;
   }
 }
