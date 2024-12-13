@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", serif;
+}
+
+/* navbar vista movil oculta */
+.navbar_movil {
+  display: none;
+}
+
+/* Estilos para nuestro contenedor "header" */
+header {
+  background-color: #834536;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Dentro de header, estilos para el h1 */
+header h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+/* Cambiamos los estilos de la lista no ordenada */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  /*background-color: #555;*/
+  color: #fbd67c;
+}
+
+main {
+  padding: 2rem;
+  margin-bottom: 10px;
+}
+
+.title-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.title-container h1 {
+  text-align: center;
+  color: #a7144c;
+  font-size: 2.4rem;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+}
+
+/* Estilos de las secciones */
+.subtitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 3rem;
+  background-color: #fbd67c;
+  margin-top: 2rem;
+}
+
+.subtitle-container h2 {
+  font-size: 1.6rem;
+}
+
+.parrafo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #cbb58d;
+}
+
+.text-container {
+  padding: 2%;
+  text-align: center;
+  width: 70%;
+}
+
+.text-container p {
+  font-size: 1.2rem;
+}
+
+.image-container {
+  display: flex;
+  width: auto;
+}
+
+.right {
+  justify-content: flex-start;
+}
+
+.left {
+  justify-content: flex-end;
+}
+
+.images {
+  width: 250px;
+  height: 250px;
+}
+
+/* Estilos del footer */
+footer {
+  display: flex;
+  background-color: #834536;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+  nav ul,
+  li,
+  a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .banner {
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .navbar_movil {
+    display: flex;
+    flex-direction: column;
+  }
+  header,
+  nav ul {
+    flex-direction: column;
+  }
+  .subtitle-container h2 {
+    font-size: 1.2rem;
+  }
+  .parrafo-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .parrafo-container p {
+    font-size: 1rem;
+  }
+  .text-container {
+    padding: 8% 0% 8% 0%;
+  }
+  .images {
+    width: 200px;
+    height: 200px;
+  }
+}

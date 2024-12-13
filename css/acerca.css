@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", serif;
+}
+
+/* Estilos para nuestro contenedor "header" */
+header {
+  background-color: #834536;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Dentro de header, estilos para el h1 */
+header h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+/* Cambiamos los estilos de la lista no ordenada */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  /*background-color: #555;*/
+  color: #fbd67c;
+}
+
+main {
+  padding: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos del footer */
+footer {
+  display: flex;
+  background-color: #834536;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+}
