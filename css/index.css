@@ -76,12 +76,13 @@ main {
   gap: 10px;
   width: 100%;
   height: 3rem;
-  background-color: #fbd67c;
+  background-color: #834536;
   margin-top: 2rem;
 }
 
 .subtitle-container h2 {
   font-size: 1.6rem;
+  color: white;
 }
 
 .parrafo-container {
@@ -90,17 +91,19 @@ main {
   align-items: center;
   width: 100%;
   height: auto;
-  background-color: #cbb58d;
+  background-color: #fbd67c;
 }
 
 .text-container {
   padding: 2%;
   text-align: center;
   width: 70%;
+  color: white;
 }
 
 .text-container p {
   font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 .image-container {
@@ -135,6 +138,10 @@ footer {
   width: 100%;
 }
 
+a {
+  color: white;
+}
+
 @media screen and (max-width: 769px) {
   nav ul,
   li,
@@ -148,17 +155,9 @@ footer {
   nav ul {
     gap: 20px;
   }
-
-  .banner {
-    object-fit: cover;
-  }
 }
 
 @media screen and (max-width: 426px) {
-  .navbar_movil {
-    display: flex;
-    flex-direction: column;
-  }
   header,
   nav ul {
     flex-direction: column;
