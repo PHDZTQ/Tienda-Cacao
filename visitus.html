@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Productos</title>
+    <title>Visitanos</title>
     <link rel="shortcut icon" href="./img/vista.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/visitanos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,142 +28,45 @@
 
     <main>
       <section>
-        <div>
-          <h2>HISTORIA</h2>
-          <p>
-            El árbol de <strong>cacao</strong> es originario de la Amazonia,
-            América del Sur de donde se extendió a América Central.
-            La <strong>historia</strong> del <strong>cacao</strong> se
-            desarrolla en Centro América hace más de 2,500 años. La
-            palabra <strong>cacao</strong> proviene de la lengua indígena Maya
-            cac que significa rojo, por el color de su mazorca y cau quiere
-            decir fuerza y fuego.
-          </p>
+        <div class="visit-title">
+          <h1>Visitanos</h1>
         </div>
+        <img src="img/Hacienda.png" alt="Banner" class="banner" />
       </section>
 
       <section>
-        <form id="form1" name="form1" method="post">
-          <table
-            width="560"
-            height="130"
-            align="center"
-            cellpadding="5"
-            cellspacing="0"
-          >
-            <tbody>
-              <tr>
-                <td width="8" bgcolor="#FFFFFF">&nbsp;</td>
-                <td width="111" bgcolor="#FFFFFF">&nbsp;</td>
-                <td width="412" bgcolor="#FFFFFF">&nbsp;</td>
-                <td width="8" bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td
-                  bgcolor="#FFFFFF"
-                  style="
-                    font-family: Segoe, 'Segoe UI', 'DejaVu Sans',
-                      'Trebuchet MS', Verdana, sans-serif;
-                    color: #000000;
-                  "
-                >
-                  <strong>
-                    <label for="textfield">Nombre:</label>
-                  </strong>
-                </td>
-                <td bgcolor="#FFFFFF">
-                  <input
-                    type="text"
-                    name="textfield"
-                    id="textfield"
-                    size="60"
-                  />
-                </td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td
-                  bgcolor="#FFFFFF"
-                  style="
-                    font-family: Segoe, 'Segoe UI', 'DejaVu Sans',
-                      'Trebuchet MS', Verdana, sans-serif;
-                    color: #000000;
-                  "
-                >
-                  <strong>
-                    <label for="textfield2">Email:</label>
-                  </strong>
-                </td>
-                <td bgcolor="#FFFFFF">
-                  <input
-                    type="text"
-                    name="textfield2"
-                    id="textfield2"
-                    size="60"
-                  />
-                </td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td
-                  bgcolor="#FFFFFF"
-                  style="
-                    font-family: Segoe, 'Segoe UI', 'DejaVu Sans',
-                      'Trebuchet MS', Verdana, sans-serif;
-                    color: #000000;
-                  "
-                >
-                  <strong>
-                    <label
-                      for="tel"
-                      style="
-                        font-family: Segoe, 'Segoe UI', 'DejaVu Sans',
-                          'Trebuchet MS', Verdana, sans-serif;
-                      "
-                      >Tel:</label
-                    >
-                  </strong>
-                </td>
-                <td bgcolor="#FFFFFF">
+        <div class="visit-title">
+          <h2>
+            <hr />
+            Contacto
+            <hr />
+          </h2>
+        </div>
+        <div class="formulario-section">
+          <div class="formulario-container">
+            <form id="form1" name="form1" method="post">
+              <ul class="formulario-lista">
+                <li>
+                  <label for="textfield">Nombre:</label>
+                  <input type="text" name="textfield" id="textfield" />
+                </li>
+                <li>
+                  <label for="textfield2">Email:</label>
+                  <input type="text" name="textfield2" id="textfield2" />
+                </li>
+                <li>
+                  <label for="tel">Tel:</label>
                   <input type="tel" name="tel" id="tel" />
-                </td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">
-                  <label for="textarea"
-                    ><strong
-                      style="
-                        font-family: Segoe, 'Segoe UI', 'DejaVu Sans',
-                          'Trebuchet MS', Verdana, sans-serif;
-                        color: #000000;
-                      "
-                      >Comentarios:</strong
-                    ></label
-                  >
-                </td>
-                <td bgcolor="#FFFFFF">
+                </li>
+                <li>
+                  <label for="textarea">Comentarios:</label>
                   <textarea
                     name="textarea"
                     maxlength="300"
                     id="textarea"
                   ></textarea>
-                </td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td align="right" bgcolor="#FFFFFF">
+                </li>
+                <li class="form-buttons">
                   <input
                     name="submit"
                     type="submit"
@@ -172,34 +75,30 @@
                     formmethod="POST"
                     value="Enviar"
                   />
-                </td>
-                <td bgcolor="#FFFFFF">
                   <input
                     type="reset"
                     name="reset"
                     id="reset"
                     value="Restablecer"
                   />
-                </td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-                <td bgcolor="#FFFFFF">&nbsp;</td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
       </section>
+
       <section>
-        <div>
+        <div class="visit-title">
+          <h2>
+            <hr />
+            Ubicación
+            <hr />
+          </h2>
+        </div>
+        <div class="map-container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60649.567311699386!2d-93.2748497!3d18.1824254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ee853e69f82891%3A0x24e6a9e504808e1d!2sHacienda%20Cacaotera%20Jes%C3%BAs%20Mar%C3%ADa!5e0!3m2!1ses-419!2smx!4v1708201296750!5m2!1ses-419!2smx"
-            width="1400"
-            height="600"
-            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -210,7 +109,7 @@
     <footer>
       <p>
         2024 Mi Sitio Web. Todos los derechos reservados. Creado por
-        <a href="https://github.com/PHDZTQ">Paola Hernández</a>
+        <a href="https://github.com/PHDZTQ" target="_blank">Paola Hernández</a>
       </p>
     </footer>
   </body>
